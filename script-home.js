@@ -29,7 +29,6 @@ fetch("luxdrive_site_data_full.json")
     heroDiv.appendChild(descElement);
     heroDiv.appendChild(ctaElement);
 
-    // max speed and HP //
 
     const stats = data.pagesContent.Accueil.stats;
 
