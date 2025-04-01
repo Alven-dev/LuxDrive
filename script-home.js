@@ -22,7 +22,7 @@ fetch("luxdrive_site_data_full.json")
     descElement.textContent = heroDesc;
     ctaElement.text = cta;
 
-    ctaElement.href = "LuxDrive/catalogue.html"
+    ctaElement.href = "catalogue.html"
     ctaElement.classList.add("btn", "btn-primary", "btn-lg");
 
     heroDiv.appendChild(titleElement);
